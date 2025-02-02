@@ -1,0 +1,221 @@
+[
+  {
+    "modal": "modal-hanna-anne",
+    "artist": "<span class='font-weight-bold'>Hanna</span> Winkler",
+    "albums": [
+      {
+        "albumName": "<span class='font-weight-bold'>Energy Centers</span> Sound Meditations",
+        "albumSongs": [
+          {
+            "name": "The Crown - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/hanna-anne/ha-c07-crown.mp3"
+          },
+          {
+            "name": "Third Eye - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/hanna-anne/ha-c06-3rdeye.mp3"
+          },
+          {
+            "name": "Throat - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/hanna-anne/ha-c05-thoat.mp3"
+          },
+          {
+            "name": "Heart - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/hanna-anne/ha-c04-heart.mp3"
+          },
+          {
+            "name": "Solar Plexus - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/hanna-anne/ha-c03-solarplex.mp3"
+          },
+          {
+            "name": "Sacral Center - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/hanna-anne/ha-c02-sacral.mp3"
+          },
+          {
+            "name": "Root Center - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/hanna-anne/ha-c01-root.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modal": "modal-whales",
+    "artist": "<span class='font-weight-bold'>Sounds</span> Of Whales",
+    "albums": [
+      {
+        "albumName": "<span class='font-weight-bold'>Whale</span> Songs",
+        "albumSongs": [
+          {
+            "name": "Whale Soundscape",
+            "src": "/static/assets/media-cms/sound/whales/whale-soundscape.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modal": "modal-laeela",
+    "artist": "<span class='font-weight-bold'>Laeela</span> David & Neelam",
+    "albums": [
+      {
+        "albumName": "<span class='font-weight-bold'>Day In Bliss</span> Sound Meditations",
+        "albumSongs": [
+          {
+            "name": "Good Morning - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/david-neelam-corfu23/dn-01-good-morning.mp3"
+          },
+          {
+            "name": "Mind To Heart - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/david-neelam-corfu23/dn-02-mind-to-heart.mp3"
+          },
+          {
+            "name": "I Am - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/david-neelam-corfu23/dn-04-i-am.mp3"
+          },
+          {
+            "name": "Polarities Journey - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/david-neelam-corfu23/dn-05-a-journey.mp3"
+          },
+          {
+            "name": "Gentle Wind - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/david-neelam-corfu23/dn-05-instrumental.mp3"
+          },
+          {
+            "name": "Divine Couple - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/david-neelam-corfu23/dn-06-divine-couple.mp3"
+          },
+          {
+            "name": "Good Night - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/david-neelam-corfu23/dn-03-good-night.mp3"
+          }
+        ]
+      },
+      {
+        "albumName": "<span class='font-weight-bold'>Hanuman</span> Chalisa",
+        "albumSongs": [
+          {
+            "name": "Hanuman Chalisa Lullaby",
+            "src": "/static/assets/media-cms/sound/david-neelam-hanuman/hanuman-chalisa.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modal": "modal-kaya",
+    "artist": "<span class='font-weight-bold'>Kaya</span> Lumina",
+    "albums": [
+      {
+        "albumName": "<span class='font-weight-bold'>Chakra</span> Toning Practices",
+        "albumSongs": [
+          {
+            "name": "Shruti & Voice - Toning Practice",
+            "src": "/static/assets/media-cms/sound/kaya-toning/Shruti.mp3"
+          },
+          {
+            "name": "Drum & Voice - Toning Practice",
+            "src": "/static/assets/media-cms/sound/kaya-toning/Drum.mp3"
+          },
+          {
+            "name": "Guiltar & Voice - Toning Practice",
+            "src": "/static/assets/media-cms/sound/kaya-toning/Guitar.mp3"
+          },
+          {
+            "name": "Voice Only - Toning Practice",
+            "src": "/static/assets/media-cms/sound/kaya-toning/Vocal.mp3"
+          }
+        ]
+      },
+      {
+        "albumName": "<span class='font-weight-bold'>Rise</span> Movement",
+        "albumSongs": [
+          {
+            "name": "Together We Rise - Song",
+            "src": "/static/assets/media-cms/sound/kaya-rise/rise-voice.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modal": "modal-pepe",
+    "artist": "<span class='font-weight-bold'>Pepe</span> Danza",
+    "albums": [
+      {
+        "albumName": "<span class='font-weight-bold'>Chakra</span> Sound Meditations",
+        "albumSongs": [
+          {
+            "name": "Soul Star Chakra - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-sssi/sssi-s08-higher-self.mp3"
+          },
+          {
+            "name": "Crown Chakra - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-sssi/sssi-s07-all-rainbow.mp3"
+          },
+          {
+            "name": "Third Eye Chakra - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-sssi/sssi-s06-indigo-transcendence.mp3"
+          },
+          {
+            "name": "Throat Chakra - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-sssi/sssi-s05-blue-communication.mp3"
+          },
+          {
+            "name": "Heart Chakra - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-sssi/sssi-s04-green-love.mp3"
+          },
+          {
+            "name": "Solar Plexus Chakra - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-sssi/sssi-s03-yellow-power.mp3"
+          },
+          {
+            "name": "Sacral Chakra - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-sssi/sssi-s02-orange-creativity.mp3"
+          },
+          {
+            "name": "Root Chakra - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-sssi/sssi-s01-red-grounding.mp3"
+          }
+        ]
+      },
+      {
+        "albumName": "<span class='font-weight-bold'>Acceptance</span> Sound Meditations",
+        "albumSongs": [
+          {
+            "name": "Transendence - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-fffd/fffd-6-Transendence.mp3"
+          },
+          {
+            "name": "Acceptance - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-fffd/fffd-5-Acceptance.mp3"
+          },
+          {
+            "name": "Depression - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-fffd/fffd-4-Depression.mp3"
+          },
+          {
+            "name": "Barganing - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-fffd/fffd-3-Barganing.mp3"
+          },
+          {
+            "name": "Anger - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-fffd/fffd-2-Anger.mp3"
+          },
+          {
+            "name": "Denial - Sound Meditation",
+            "src": "/static/assets/media-cms/sound/pepe-fffd/fffd-1-Denial.mp3"
+          }
+        ]
+      },
+      {
+        "albumName": "<span class='font-weight-bold'>Ecstatic</span> Dances",
+        "albumSongs": [
+          {
+            "name": "Ecstatic Dance - 30 min. Sound Journey",
+            "src": "/static/assets/media-cms/sound/pepe-ext/pepe-ecstatic-dance.mp3"
+          }
+        ]
+      }
+    ]
+  }
+]

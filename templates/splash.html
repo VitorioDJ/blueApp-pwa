@@ -1,0 +1,39 @@
+<!-- templates/splash.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1; /* Send video to the back */
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <script>
+        // Redirect to the main page after 4 seconds
+        setTimeout(function() {
+            window.location.href = "/main";  // Redirect to /main
+        }, 4000);  // Change duration to 4000 milliseconds (4 seconds)
+    </script>
+</head>
+<body>
+    <video autoplay muted playsinline>
+        <source src="{{ url_for('static', filename='assets/media/blueAppSplash.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>

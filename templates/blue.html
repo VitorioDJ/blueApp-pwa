@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ===============================================-->
+  <!--    Document Title-->
+  <!-- ===============================================-->
+  <title>blue</title>
+
+
+  <!-- ===============================================-->
+  <!--    Favicons-->
+  <!-- ===============================================-->
+  <link rel="apple-touch-icon" sizes="180x180" href="../static/assets/img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../static/assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../static/assets/img/favicons/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/x-icon" href="../static/assets/img/favicons/favicon.ico">
+  <link rel="manifest" href="../static/assets/img/favicons/manifest.json">
+  <meta name="msapplication-TileImage" content="../static/assets/img/favicons/mstile-150x150.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- ===============================================-->
+  <!--    Stylesheets-->
+  <!-- ===============================================-->
+  <link
+    href="../static/assets/css/fonts-raleway.css?family=Raleway:100,200,300,400,500,700&amp;#x7c;Trirong:200,200i,300,300i,400,400i"
+    rel="stylesheet">
+  <link href="../static/assets/css/fonts-roboto.css?family=Roboto:100,300,400,500,700,900&amp;#x7c" rel="stylesheet">
+  <link href="../static/assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
+  <link href="../static/assets/lib/remodal/remodal.css" rel="stylesheet">
+  <link href="../static/assets/lib/remodal/remodal-default-theme.css" rel="stylesheet">
+  <link href="../static/assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.css" rel="stylesheet">
+  <link href="../static/assets/css/theme.css" rel="stylesheet">
+  <link href="../static/assets/lib/plyr/plyr.css" rel="stylesheet">
+  
+  <link href="../static/assets/css/vik-hor-scroll.css" rel="stylesheet">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register("/sw.js").then(function (registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+    }
+  </script>
+</head>
+
+
+<body data-spy="scroll" data-target="#navbar-one-page" data-offset="80">
+
+  <nav class="navbar navbar-expand-sm navbar-dark navbar-theme fixed-top py-0">
+    <div class="container">
+      <!-- <a class="navbar-brand font-weight-normal ls-1" href="#top" data-fancyscroll="data-fancyscroll" data-offset="64">
+        <img class="testimonial-company-logo d-inline-block opacity-80"
+          src="../static/assets/img/logo/b&amp;w/col-logo.png" alt="" />
+      </a> -->
+
+      <a class="navbar-brand font-weight-normal" href="#" id="mute-toggle" data-fancyscroll="data-fancyscroll"
+        data-toggle="tooltip" data-placement="top" title="Mute / Unmute">
+        <i class="fas fa-volume-up" id="mute-icon"></i>
+      </a>
+
+      <a class="navbar-brand font-weight-normal" href="#" id="rnd-toggle" data-fancyscroll="data-fancyscroll"
+        data-toggle="tooltip" data-placement="top" title="Play Random / Pause">
+        <i class="fas fa-dice" id="rnd-icon"></i>
+      </a>
+
+      <a class="navbar-brand font-weight-normal" href="#" id="play-toggle" data-fancyscroll="data-fancyscroll"
+        data-toggle="tooltip" data-placement="top" title="Play / Pause">
+        <i class="fas fa-play" id="play-icon"></i>
+      </a>
+
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav ml-auto" id="navbar-one-page">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false" id="dropdown1"><b>Music</b></a>
+            <div class="dropdown-menu" aria-labelledby="dropdown1">
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-pepe">Pepe Danza</a>
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-laeela">Laeela</a>
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-hanna-anne">Hanna Winkler</a>
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-kaya">Kaya Lumina</a>
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-whales">Whale Sounds</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false" id="dropdown4"><b>Meditation</b></a>
+            <div class="dropdown-menu" aria-labelledby="dropdown4">
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-medit-vitorio">Vitorio</a>
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-medit-evia">Evia</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-soundscape">Soundscapes</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false" id="dropdown3"><b>Video</b></a>
+            <div class="dropdown-menu" aria-labelledby="dropdown3">
+              <a class="dropdown-item" href="#!"
+                onclick="addVideo('/static/assets/media-cms/video/water/blue-wave.mp4');">Blue Wave</a>
+              <a class="dropdown-item" href="#!"
+                onclick="addVideo('/static/assets/media-cms/video/water/water-01.mp4');">Blue Water</a>
+              <a class="dropdown-item" href="#!"
+                onclick="addVideo('/static/assets/media-cms/video/water/water-02.mp4');">Crystaline</a>
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-video">More...</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://courses.empower-house.org" data-fancyscroll="data-fancyscroll"
+              data-offset="64" data-toggle="tooltip" data-placement="top" title="Logout">
+              <i class="fas fa-sign-out-alt fa-2x"></i> <!-- Font Awesome logout icon -->
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===============================================-->
+  <!--    Main Content-->
+  <!-- ===============================================-->
+  <main>
+
+
+    <!-- ============================================-->
+    <!-- Preloader ==================================-->
+    <div class="preloader" id="preloader">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-white-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============================================-->
+    <!-- End of Preloader ===========================-->
+
+    <section class="py-0 text-center" id="top" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+
+      <div class="bg-holder overlay overlay-z-index-1"
+        style="background-image:url(../static/assets/img/headers/header-blue.jpg);">
+
+        <video class="bg-video" autoplay="autoplay" loop="loop" muted="muted">
+          <source src="../static/assets/media-cms/video/water/blue-wave.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+      <div class="header-overlay"></div>
+      <div class="container">
+
+        <div class="d-flex flex-center vh-100">
+          <div class="header-text">
+            <div class="overflow-hidden">
+              <img class="w-50 opacity-40 fade-effect" id="logo" data-zanim-xs='{"duration":3,"delay":0}'
+                src="../static/assets/img/illustration/blue-title-2.png" alt="" />
+              <p id="sub-title" class="lead display-3 text-white fs-2 fs-md-4 fade-effect"
+                data-zanim-xs='{"duration":3,"delay":1.2}'>Relax Deeper</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="header-indicator-down">
+          <a class="indicator indicator-down opacity-75" href="#start-here" data-fancyscroll="data-fancyscroll"
+            data-offset="64">
+            <span class="indicator-arrow indicator-arrow-one"
+              data-zanim-xs='{"from":{"opacity":0,"y":30},"to":{"opacity":1,"y":0},"ease":"Back.easeOut","duration":1,"delay":1.5}'></span>
+          </a>
+        </div> -->
+
+      </div>
+    </section>
+
+
+    <!-- ============================================-->
+    <!-- <section> begin ============================-->
+    <section class="bg-1100 py-3 text-center">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 pr-lg-4 mb-4 mb-lg-0">
+
+            <p class="text-700 text-justify">Designed with <span class="fas fa-heart mx-2"></span> by emPower House</p>
+
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- <section> close ============================-->
+    <!-- ============================================-->
+
+
+  </main>
+  <!-- ===============================================-->
+  <!--    End of Main Content-->
+  <!-- ===============================================-->
+  <a class="btn-back-to-top" href="#top" data-fancyscroll><img src="../static/assets/img/line-icons/upload-arrow.svg"
+      width="8" alt=""></a>
+
+
+
+  <!-- ===============================================-->
+  <!--    Modal Dialog Boxes-->
+  <!-- ===============================================-->
+
+  <!-- MODAL VIDEO -->
+
+  {% for video in videos %}
+  <div class="remodal rounded-soft" data-remodal-id="{{ video.modal }}">
+    <button class="remodal-close" data-remodal-action="close"></button>
+    <h4>{{ video.artist | safe }}</h4>
+
+    {% for album in video.albums %}
+    <div class="card-header text-left mt-3">
+      <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+    </div>
+    <div class="image-scroll-container">
+      <div class="image-scroll my-2">
+        {% for videoItem in album.albumVideos %}
+        <div class="image-item">
+          <a href="#!" onclick="addVideo('{{ videoItem.src }}');">
+            <img src="{{ videoItem.thumb }}" alt="{{ videoItem.title }}">
+            <div class="image-title">{{ videoItem.title }}</div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+
+    <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
+  </div>
+  {% endfor %}
+
+
+
+  <!-- MODAL MEDITATIONS -->
+
+  {% for artist in meditations %}
+  <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
+    <button class="remodal-close" data-remodal-action="close"></button>
+    <h4>{{ artist.artist | safe }}</h4>
+
+    {% for album in artist.albums %}
+    <div class="card-header text-left mt-3">
+      <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+    </div>
+    <ul class="list-group list-group-flush text-left">
+      {% for song in album.albumSongs %}
+      <li class="list-group-item">
+        <p class="card-title font-weight-medium">{{ song.name }}</p>
+        <audio class="player meditation" controls>
+          <source src="{{ song.src }}" type="audio/mp3" />
+        </audio>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+
+    <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
+  </div>
+  {% endfor %}
+
+
+  <!-- MODAL SOUNDSCAPES -->
+
+  {% for artist in soundscapes %}
+  <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
+    <button class="remodal-close" data-remodal-action="close"></button>
+    <h4>{{ artist.artist | safe }}</h4>
+
+    {% for album in artist.albums %}
+    <div class="card-header text-left mt-3">
+      <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+    </div>
+    <ul class="list-group list-group-flush text-left">
+      {% for song in album.albumSongs %}
+      <li class="list-group-item">
+        <p class="card-title font-weight-medium">{{ song.name }}</p>
+        <audio class="player soundscape" controls>
+          <source src="{{ song.src }}" type="audio/mp3" />
+        </audio>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+
+    <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
+  </div>
+  {% endfor %}
+
+
+
+  <!-- MODAL MUSIC -->
+
+  {% for artist in music %}
+  <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
+    <button class="remodal-close" data-remodal-action="close"></button>
+    <h4>{{ artist.artist | safe }}</h4>
+
+    {% for album in artist.albums %}
+    <div class="card-header text-left mt-3">
+      <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+    </div>
+    <ul class="list-group list-group-flush text-left">
+      {% for song in album.albumSongs %}
+      <li class="list-group-item">
+        <p class="card-title font-weight-medium">{{ song.name }}</p>
+        <audio class="player music" controls>
+          <source src="{{ song.src }}" type="audio/mp3" />
+        </audio>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+
+    <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
+  </div>
+  {% endfor %}
+
+
+  <!-- MODAL SOON... -->
+
+  <div class="remodal rounded-soft" data-remodal-id="modal-soon">
+    <button class="remodal-close" data-remodal-action="close"></button>
+    <h4>Coming Soon...<span class="font-weight-bold"></span></h4>
+    <!-- <p class="text-sans-serif text-center mb-3" >COMING SOON</p> -->
+    <button class="btn btn-sm btn-dark mr-3" data-remodal-action="confirm">OK</button>
+  </div>
+  <!-- Modal Dialog Boxes close ===================-->
+  <!-- ============================================-->
+
+
+  <!-- ===============================================-->
+  <!--    JavaScripts-->
+  <!-- ===============================================-->
+  <script src="../static/assets/js/jquery.min.js"></script>
+  <script src="../static/assets/js/bootstrap.js"></script>
+  <script src="../static/assets/js/plugins.js"></script>
+  <script src="../static/assets/js/theme.js"></script>
+  <script src="../static/assets/lib/plyr/plyr.polyfilled.min.js"></script>
+  <script src="../static/assets/lib/owl.carousel/owl.carousel.js"></script>
+  <script src="../static/assets/lib/remodal/remodal.min.js"></script>
+  <script src="../static/assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.js"></script>
+
+  <script src="../static/assets/js/stickyfill.min.js"></script>
+  <script src="../static/assets/lib/@fortawesome/all.min.js"></script>
+  <script src="../static/assets/js/popper.min.js"></script>
+  <script src="../static/assets/js/rellax.min.js"></script>
+
+  <script src="../static/assets/lib/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../static/assets/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
+  <script src="../static/assets/lib/hover-dir/jquery.hoverdir.js"></script>
+  <script src="/public/courses/Session.js"></script> <!-- enable courses section on Sessionly basis -->
+
+
+
+  <!-- ===============================================-->
+  <!--    BlueApp JavaScripts-->
+  <!-- ===============================================-->
+  <script>
+    // Get all audio players
+    let players = document.querySelectorAll('audio.player');
+    let playersMedit = document.querySelectorAll('audio.meditation');
+    let playersSound = document.querySelectorAll('audio.soundscape');
+    let playersMusic = document.querySelectorAll('audio.music');
+
+    // console.log ('Total meditations = ', playersMedit.length);
+    // console.log ('Total musics = ', playersMusic.length);
+    // console.log ('Total soundscapes = ', playersSound.length);
+
+
+    let currentlyPlaying1 = [];
+    let wasPlaying = [];
+
+    let isMuted = false; // Track mute state
+    let isPlaying = false; // Track paused state
+
+
+    // Function to update Mute, Play, Rnd Icons
+    function updateMuteIcon() {
+      const currIcon = document.getElementById('mute-icon');
+
+      currIcon.classList.remove('fa-volume-mute', 'fa-volume-up');
+      if (isMuted) {
+        currIcon.classList.add('fa-volume-mute');
+      } else {
+        currIcon.classList.add('fa-volume-up');
+      }
+    }
+
+    function updatePlayIcon() {
+      const currIcon = document.getElementById('play-icon');
+
+      currIcon.classList.remove('fa-play', 'fa-pause');
+      if (isPlaying) {
+        currIcon.classList.add('fa-pause');
+      } else {
+        currIcon.classList.add('fa-play');
+      }
+    }
+
+    function updateRndIcon() {
+      const currIcon = document.getElementById('rnd-icon');
+
+      currIcon.classList.remove('fa-dice', 'fa-stop');
+      if (isPlaying) {
+        currIcon.classList.add('fa-stop');
+      } else {
+        currIcon.classList.add('fa-dice');
+      }
+    }
+
+
+    // Function to toggle Mute
+    function toggleMute() {
+      isMuted = !isMuted; // Toggle mute state
+
+      // Set volume (MUTE / UNMUTE) for audio players
+      players.forEach(audioPlayer => {
+        audioPlayer.volume = isMuted ? 0 : 1; // Mute or unmute
+      });
+
+      updateMuteIcon();
+
+    }
+
+    // Add event listener to the mute toggle menu item
+    document.getElementById('mute-toggle').addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent default anchor behavior
+      toggleMute(); // Call the toggle mute function
+    });
+
+
+    //---------------------------
+    // BEGIN Play / Pause Players
+    //
+
+    function togglePlaying(playType) {
+      // Pause or resume audio players
+      if (isPlaying) {
+        players.forEach(audio => {
+          audio.addEventListener('play', () => {
+            // Add the audio element to the currentlyPlaying array
+            currentlyPlaying.push(audio);
+          });
+        });
+
+        if (playType == 'ply') {
+          wasPlaying = pauseAllAudio();
+        } else {
+          wasPlaying = stopAllAudio();
+        }
+
+      } else if (playType == 'rnd') {
+        // Play RANDOM audio player
+        playRandom();
+
+      } else if (playType == 'ply') {
+        if (wasPlaying.length > 0) {
+          resumeAllAudio(wasPlaying);
+        } else {
+          playRandom();
+        }
+
+      }
+
+      isPlaying = !isPlaying; // Toggle playing state
+
+      updateRndIcon();
+      updatePlayIcon();
+
+    }
+
+
+    //----------------
+    // EVENT Listeners
+    //----------------
+
+    // Add event listener to RND icon
+    document.getElementById('rnd-toggle').addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent default anchor behavior
+      togglePlaying('rnd'); // Call the toggle playing function
+    });
+
+    // Add event listener to PLAY icon
+    document.getElementById('play-toggle').addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent default anchor behavior
+      togglePlaying('ply'); // Call the toggle playing function
+    });
+
+
+    // Add event listener to EACH AUDIO PLAYER - toggle main Play icon
+    players.forEach(player1 => {
+      player1.addEventListener('play', () => {
+        // Reset and add the currently playing player
+        currentlyPlaying1 = [player1];
+        isPlaying = true;
+
+        updateRndIcon();
+        updatePlayIcon();
+      });
+
+      player1.addEventListener('pause', () => {
+        // Remove from currently playing
+        currentlyPlaying1 = currentlyPlaying1.filter(p => p !== player1);
+        // Update icon if no players are currently playing
+        if (currentlyPlaying1.length === 0) {
+          isPlaying = false;
+
+          updateRndIcon();
+          updatePlayIcon();
+        }
+      });
+
+    });
+
+
+
+    // Function to play RANDOM MUSIC player
+    function playRandom() {
+      // First re-wind ALL players
+      players.forEach(audio => {
+        audio.currentTime = 0;
+      });
+
+      const rndIndex = Math.floor(Math.random() * (playersMusic.length + 1));
+      const currentPlayer = playersMusic[rndIndex];
+
+      currentPlayer.play();
+
+    }
+
+    // Function to PAUSE all audio players
+    function pauseAllAudio() {
+      const wasPlaying = Array.from(players).filter(audio => !audio.paused);
+
+      players.forEach(audioPlayer => {
+        audioPlayer.pause();
+      });
+
+      return wasPlaying;
+    }
+
+    // Function to STOP all audio players
+    function stopAllAudio() {
+      const wasPlaying = Array.from(players).filter(audio => !audio.paused);
+
+      players.forEach(audioPlayer => {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0; // Reset the playhead to the beginning
+      });
+
+      return wasPlaying;
+    }
+
+    //Function to RESUME all paused audio players (t > 0) (MAX 2 players)
+    function resumeAllAudio(wasPlaying) {
+      wasPlaying.forEach(audio => {
+        audio.play();
+      });
+    }
+
+
+    // Function to SMART-PAUSE all audio players
+    function pauseSmartOtherAudio(selectedPlayer) {
+      const audioElements = document.querySelectorAll('audio');
+      const playingAudioPlayers = Array.from(audioElements).filter(audio => !audio.paused);
+      let currentPlayer = playingAudioPlayers[0];
+
+      // console.log(selectedPlayer);
+      // console.log(currentPlayer);
+      // console.log(playingAudioPlayers);
+      // console.log('Total playing Players =', playingAudioPlayers.length);
+
+      if (playingAudioPlayers.length > 2) {
+        players.forEach(otherPlayer => {
+          if (otherPlayer !== selectedPlayer) {
+            otherPlayer.pause();
+          }
+        });
+      } else if (playingAudioPlayers.length == 2) {
+        if (playingAudioPlayers[0].classList.contains('soundscape') && playingAudioPlayers[1].classList.contains('meditation')) {
+          // console.log('Soundscape + Meditation -> keep playing');
+        } else if (playingAudioPlayers[0].classList.contains('meditation') && playingAudioPlayers[1].classList.contains('soundscape')) {
+          // console.log('Meditation + Soundscape -> keep playing');
+        } else {
+          players.forEach(otherPlayer => {
+            if (otherPlayer !== selectedPlayer) {
+              otherPlayer.pause();
+            }
+          });
+        }
+      } else {
+        if (selectedPlayer.classList.contains('soundscape') && currentPlayer.classList.contains('meditation')) {
+          // console.log('Soundscape + Meditation -> keep playing');
+        } else if (selectedPlayer.classList.contains('meditation') && currentPlayer.classList.contains('soundscape')) {
+          // console.log('Meditation + Soundscape -> keep playing');
+        } else {
+          players.forEach(otherPlayer => {
+            if (otherPlayer !== selectedPlayer) {
+              otherPlayer.pause();
+            }
+          });
+        }
+
+      }
+
+    }
+
+
+    // Add event listener to each audio player
+    players.forEach(player => {
+      player.addEventListener('play', () => {
+        // Pause SMART all other audio players
+        pauseSmartOtherAudio(player);
+      });
+    });
+
+
+    //
+    // END Play / Pause Players
+    //-------------------------
+
+
+    // Function to skip forward or backward
+    function skipMedia(event) {
+      const activeAudioPlayer = Array.from(players).find(player => !player.paused);
+
+      if (event.key === 'ArrowRight') {
+        // Skip forward 10 seconds for the active audio player
+        if (activeAudioPlayer) {
+          activeAudioPlayer.currentTime = Math.min(activeAudioPlayer.duration, activeAudioPlayer.currentTime + 10);
+        }
+      } else if (event.key === 'ArrowLeft') {
+        // Skip backward 10 seconds for the active audio player
+        if (activeAudioPlayer) {
+          activeAudioPlayer.currentTime = Math.max(0, activeAudioPlayer.currentTime - 10);
+        }
+      }
+    }
+
+
+    // Handle Logo Fade-In Fade-Out
+    const logo = document.getElementById('logo');
+    const subTitle = document.getElementById('sub-title');
+
+    // Function to reset opacity on click
+    function resetOpacity() {
+      logo.style.opacity = '1';
+      subTitle.style.opacity = '1';
+      logo.classList.remove('fade-effect');
+      subTitle.classList.remove('fade-effect');
+
+      // Restart the fade-out effect after a short delay
+      setTimeout(() => {
+        logo.classList.add('fade-effect');
+        subTitle.classList.add('fade-effect');
+      }, 100); // Delay to allow the opacity to reset
+    }
+
+    // Add click event listener
+    logo.addEventListener('click', resetOpacity);
+    subTitle.addEventListener('click', resetOpacity);
+
+
+
+    // Function to add a new video to bg-holder
+    function addVideo(videoSrc) {
+      // Create a new video element
+      var newVideo = document.createElement('video');
+      newVideo.className = 'bg-video'; // Add the same class for styling
+      newVideo.autoplay = true; // Set autoplay
+      newVideo.loop = true; // Set loop
+      newVideo.muted = true; // Set muted
+
+      // Create a source element for the new video
+      var source = document.createElement('source');
+      source.src = videoSrc; // Set the source URL
+      source.type = 'video/mp4'; // Set the type
+
+      // Append the source to the video element
+      newVideo.appendChild(source);
+
+      // Append the new video to the div
+      var bgHolder = document.querySelector('.bg-holder');
+      bgHolder.appendChild(newVideo);
+    }
+
+
+    // On Loading the page -> MAX all AUDIO players
+    window.onload = function () {
+      // Select all audio elements on the page
+      const audioElements = document.querySelectorAll('audio');
+
+      // Set the volume of each audio element to maximum (1.0)
+      audioElements.forEach(audio => {
+        audio.volume = 1.0; // Set volume to maximum
+      });
+    };
+
+  </script>
+
+</body>
+
+</html>

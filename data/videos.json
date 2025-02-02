@@ -1,0 +1,103 @@
+[
+  {
+      "modal": "modal-video",
+      "artist": "<span class='font-weight-bold'>Video</span> Backgrounds",
+      "albums": [
+          {
+              "albumName": "<span class='font-weight-bold'>Water</span> Scenes",
+              "albumVideos": [
+                {
+                    "title": "Blue Wave",
+                    "thumb": "/static/assets/media-cms/video/water/blue-wave.jpg",
+                    "src": "/static/assets/media-cms/video/water/blue-wave.mp4"
+                },
+                {
+                    "title": "Blue",
+                    "thumb": "/static/assets/media-cms/video/water/water-01.jpg",
+                    "src": "/static/assets/media-cms/video/water/water-01.mp4"
+                },
+                {
+                    "title": "Crystaline",
+                    "thumb": "/static/assets/media-cms/video/water/water-02.jpg",
+                    "src": "/static/assets/media-cms/video/water/water-02.mp4" 
+                },
+                {
+                    "title": "Whales",
+                    "thumb": "/static/assets/media-cms/video/water/ob-whales-fast.jpg",
+                    "src": "/static/assets/media-cms/video/water/ob-whales-fast.mp4"
+                }
+              ]
+          },
+          {
+              "albumName": "<span class='font-weight-bold'>Landscape</span> Scenes",
+              "albumVideos": [
+                  {
+                    "title": "New Zealand Flyover",
+                    "thumb": "/static/assets/media-cms/video/landscape/ls-nz-flyover.jpg",
+                    "src": "/static/assets/media-cms/video/landscape/ls-nz-flyover.mp4"
+                  },
+                  {
+                    "title": "Scotland Flyover",
+                    "thumb": "/static/assets/media-cms/video/landscape/ls-scotland.jpg",
+                    "src": "/static/assets/media-cms/video/landscape/ls-scotland.mp4"
+                  },
+                  {
+                    "title": "Madeira Flyover",
+                    "thumb": "/static/assets/media-cms/video/landscape/ls-madeira.jpg",
+                    "src": "/static/assets/media-cms/video/landscape/ls-madeira.mp4"
+                  },
+                  {
+                    "title": "Alps & Dolomites Flyover",
+                    "thumb": "/static/assets/media-cms/video/landscape/ls-dolomites.jpg",
+                    "src": "/static/assets/media-cms/video/landscape/ls-dolomites.mp4"
+                  }
+              ]
+          },
+          {
+              "albumName": "<span class='font-weight-bold'>Time</span> Lapse",
+              "albumVideos": [
+                {
+                    "title": "Atacama Desert",
+                    "thumb": "/static/assets/media-cms/video/timelapse/tt-atacama.jpg",
+                    "src": "/static/assets/media-cms/video/timelapse/tt-atacama.mp4"
+                  },
+                  {
+                    "title": "Night Stars",
+                    "thumb": "/static/assets/media-cms/video/timelapse/tt-stars-timelapse.jpg",
+                    "src": "/static/assets/media-cms/video/timelapse/tt-stars-timelapse.mp4"
+                  },
+                  {
+                    "title": "Northern Lights - Alaska",
+                    "thumb": "/static/assets/media-cms/video/timelapse/tt-north-light-alaska.jpg",
+                    "src": "/static/assets/media-cms/video/timelapse/tt-north-light-alaska.mp4"
+                  }
+              ]
+          },
+          {
+            "albumName": "<span class='font-weight-bold'>Fractal</span> Scapes",
+            "albumVideos": [
+              {
+                  "title": "Fractal Trip I",
+                  "thumb": "/static/assets/media-cms/video/fractal/mt-trip-i-fin.jpg",
+                  "src": "/static/assets/media-cms/video/fractal/mt-trip-i-fin.mp4"
+                },
+                {
+                  "title": "Next Dimension",
+                  "thumb": "/static/assets/media-cms/video/fractal/mt-next-dim-fin.jpg",
+                  "src": "/static/assets/media-cms/video/fractal/mt-next-dim-fin.mp4"
+                },
+                {
+                  "title": "Dream I",
+                  "thumb": "/static/assets/media-cms/video/fractal/mt-dream-fin.jpg",
+                  "src": "/static/assets/media-cms/video/fractal/mt-dream-fin.mp4"
+                },
+                {
+                  "title": "Fractal Trip II",
+                  "thumb": "/static/assets/media-cms/video/fractal/mt-trip-ii-fin.jpg",
+                  "src": "/static/assets/media-cms/video/fractal/mt-trip-ii-fin.mp4"
+                }
+            ]
+        }
+      ]
+  }
+]
