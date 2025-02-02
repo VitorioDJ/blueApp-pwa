@@ -1,3 +1,4 @@
 env/
 static/assets/media-cms
 .DS_Store
+blueApp-pwa.conf
