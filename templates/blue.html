@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <!-- ===============================================-->
   <!--    Document Title-->
   <!-- ===============================================-->
@@ -53,14 +53,10 @@
 </head>
 
 
-<body data-spy="scroll" data-target="#navbar-one-page" data-offset="80">
+  <body data-spy="scroll" data-target="#navbar-one-page" data-offset="80" style="overflow-y: hidden;">
 
   <nav class="navbar navbar-expand-sm navbar-dark navbar-theme fixed-top py-0">
     <div class="container">
-      <!-- <a class="navbar-brand font-weight-normal ls-1" href="#top" data-fancyscroll="data-fancyscroll" data-offset="64">
-        <img class="testimonial-company-logo d-inline-block opacity-80"
-          src="../static/assets/img/logo/b&amp;w/col-logo.png" alt="" />
-      </a> -->
 
       <a class="navbar-brand font-weight-normal" href="#" id="mute-toggle" data-fancyscroll="data-fancyscroll"
         data-toggle="tooltip" data-placement="top" title="Mute / Unmute">
@@ -182,21 +178,13 @@
           </div>
         </div>
 
-        <!-- <div class="header-indicator-down">
-          <a class="indicator indicator-down opacity-75" href="#start-here" data-fancyscroll="data-fancyscroll"
-            data-offset="64">
-            <span class="indicator-arrow indicator-arrow-one"
-              data-zanim-xs='{"from":{"opacity":0,"y":30},"to":{"opacity":1,"y":0},"ease":"Back.easeOut","duration":1,"delay":1.5}'></span>
-          </a>
-        </div> -->
-
       </div>
     </section>
 
 
     <!-- ============================================-->
     <!-- <section> begin ============================-->
-    <section class="bg-1100 py-3 text-center">
+    <!-- <section class="bg-1100 py-3 text-center">
 
       <div class="container">
         <div class="row">
@@ -212,7 +200,7 @@
         </div>
       </div>
 
-    </section>
+    </section> -->
     <!-- <section> close ============================-->
     <!-- ============================================-->
 
@@ -317,7 +305,6 @@
   {% endfor %}
 
 
-
   <!-- MODAL MUSIC -->
 
   {% for artist in music %}
@@ -391,11 +378,6 @@
     let playersMedit = document.querySelectorAll('audio.meditation');
     let playersSound = document.querySelectorAll('audio.soundscape');
     let playersMusic = document.querySelectorAll('audio.music');
-
-    // console.log ('Total meditations = ', playersMedit.length);
-    // console.log ('Total musics = ', playersMusic.length);
-    // console.log ('Total soundscapes = ', playersSound.length);
-
 
     let currentlyPlaying1 = [];
     let wasPlaying = [];

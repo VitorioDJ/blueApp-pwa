@@ -1,6 +1,6 @@
 from flask import Flask, render_template, send_file, jsonify, redirect
 import sys, json, os, time
-# sys.path.append('./modules')
+sys.path.append('./modules')
 from functions import update_json_with_tabs
 
 app = Flask(__name__)
