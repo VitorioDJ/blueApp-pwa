@@ -25,7 +25,12 @@
                     "title": "Whales",
                     "thumb": "/static/assets/media-cms/video/water/ob-whales-fast.jpg",
                     "src": "/static/assets/media-cms/video/water/ob-whales-fast.mp4"
-                }
+                },
+                {
+                  "title": "Jelly Fish",
+                  "thumb": "/static/assets/media-cms/video/water/1080x720_jellyfish-01-60s.jpg",
+                  "src": "/static/assets/media-cms/video/water/1080x720_jellyfish-01-60s.mp4"
+              }
               ]
           },
           {
