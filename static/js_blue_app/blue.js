@@ -361,18 +361,3 @@ document.getElementById('navbarToggle').addEventListener('click', function() {
     }
 });
 
-// Close the entire navbar on small screens when a dropdown item is clicked
-// document.querySelectorAll('.dropdown-item').forEach(item => {
-//     item.addEventListener('click', function () {
-//         // Collapse the navbar
-//         const navbarCollapse = document.getElementById('navbarSupportedContent');
-//         if (navbarCollapse) {
-//             navbarCollapse.classList.remove('show');
-//             const navbarToggle = document.getElementById('navbarToggle');
-//             if (navbarToggle) {
-//                 navbarToggle.classList.add('collapsed');
-//                 navbarToggle.setAttribute('aria-expanded', 'false');
-//             }
-//         }
-//     });
-// });

@@ -197,14 +197,7 @@
     <button class="remodal-close" data-remodal-action="close"></button>
     <h4>{{ video.artist | safe }}</h4>
 
-    <div style="position: relative; display: inline-block; width: 100%;">
-      <h4 style="margin: 0;">{{ video.artist | safe }}</h4>
-      <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
-        style="position: absolute; right: 0; top: -15px;">
-        <i class="fas fa-times" id="mute-icon"></i>
-      </a>
-    </div>
-
+    <h4 style="margin: 0;">{{ video.artist | safe }}</h4>
     <div class="scrollable-box">
       {% for album in video.albums %}
       <div class="card-header text-left">
@@ -236,14 +229,7 @@
   <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
     <button class="remodal-close" data-remodal-action="close"></button>
 
-    <div style="position: relative; display: inline-block; width: 100%;">
-      <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
-      <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
-        style="position: absolute; right: 0; top: -15px;">
-        <i class="fas fa-times" id="mute-icon"></i>
-      </a>
-    </div>
-
+    <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
     <div class="scrollable-box">
       {% for album in artist.albums %}
       <div class="card-header text-left">
@@ -273,14 +259,7 @@
   <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
     <button class="remodal-close" data-remodal-action="close"></button>
 
-    <div style="position: relative; display: inline-block; width: 100%;">
-      <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
-      <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
-        style="position: absolute; right: 0; top: -15px;">
-        <i class="fas fa-times" id="mute-icon"></i>
-      </a>
-    </div>
-
+    <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
     <div class="scrollable-box">
       {% for album in artist.albums %}
       <div class="card-header text-left">
@@ -310,14 +289,7 @@
   <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
     <button class="remodal-close" data-remodal-action="close"></button>
 
-    <div style="position: relative; display: inline-block; width: 100%;">
-      <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
-      <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
-        style="position: absolute; right: 0; top: -15px;">
-        <i class="fas fa-times" id="mute-icon"></i>
-      </a>
-    </div>
-
+    <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
     <div class="scrollable-box">
       {% for album in artist.albums %}
       <div class="card-header text-left">
@@ -327,7 +299,7 @@
         {% for song in album.albumSongs %}
         <li class="list-group-item">
           <p class="card-title font-weight-medium">{{ song.name }}</p>
-          <audio class="player meditation" controls>
+          <audio class="player music" controls>
             <source src="{{ song.src }}" type="audio/mp3" />
           </audio>
         </li>
