@@ -103,17 +103,3 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   /* Optional: Add a shadow */
 }
-
-/* Hide the mute icon in portrait mode */
-@media (orientation: portrait) {
-  .mute-icon {
-    display: none;
-  }
-}
-
-/* Show the mute icon in landscape mode */
-@media (orientation: landscape) {
-  .mute-icon {
-    display: inline-block; /* or 'block' depending on your layout */
-  }
-}

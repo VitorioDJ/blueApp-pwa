@@ -1,10 +1,10 @@
 [
   {
     "modal": "modal-hanna-anne",
-    "artist": "<span class='font-weight-bold'>Hanna</span> Winkler",
+    "artist": "<span class='font-weight-bold'>Hanna</span> Now",
     "albums": [
       {
-        "albumName": "<span class='font-weight-bold'>Energy Centers</span> Sound Meditations",
+        "albumName": "<span class='font-weight-bold'>Energy Center</span> Journeys",
         "albumSongs": [
           {
             "name": "The Crown - Sound Meditation",
@@ -106,22 +106,22 @@
     "artist": "<span class='font-weight-bold'>Kaya</span> Lumina",
     "albums": [
       {
-        "albumName": "<span class='font-weight-bold'>Chakra</span> Toning Practices",
+        "albumName": "<span class='font-weight-bold'>Chakra</span> Toning",
         "albumSongs": [
           {
-            "name": "Shruti & Voice - Toning Practice",
+            "name": "Shruti & Voice - Toning",
             "src": "/static/assets/media-cms/sound/kaya-toning/Shruti.mp3"
           },
           {
-            "name": "Drum & Voice - Toning Practice",
+            "name": "Drum & Voice - Toning",
             "src": "/static/assets/media-cms/sound/kaya-toning/Drum.mp3"
           },
           {
-            "name": "Guiltar & Voice - Toning Practice",
+            "name": "Guiltar & Voice - Toning",
             "src": "/static/assets/media-cms/sound/kaya-toning/Guitar.mp3"
           },
           {
-            "name": "Voice Only - Toning Practice",
+            "name": "Voice Only - Toning",
             "src": "/static/assets/media-cms/sound/kaya-toning/Vocal.mp3"
           }
         ]
