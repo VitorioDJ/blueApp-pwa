@@ -67,3 +67,14 @@
     opacity: 1 !important; /* Return to 100% opacity on hover */
     animation: none; /* Stop the fade-out animation */
   }
+
+  /* Scroll inside MODAL */
+  .scrollable-box {
+    max-width: 600px; /* Set your desired max width */
+    max-height: 70vh; /* Set max height to 80% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    /* padding: 10px; */
+    background-color: #f9f9f9; /* Optional: Background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+

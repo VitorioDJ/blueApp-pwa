@@ -260,7 +260,7 @@ players.forEach(player => {
 //-------------------------
 
 
-// Function to skip forward or backward
+// Function to skip playhead forward or backward
 function skipMedia(event) {
     const activeAudioPlayer = Array.from(players).find(player => !player.paused);
 

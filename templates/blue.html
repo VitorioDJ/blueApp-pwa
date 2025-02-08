@@ -36,7 +36,7 @@
   <link href="../static/assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.css" rel="stylesheet">
   <link href="../static/assets/css/theme.css" rel="stylesheet">
   <link href="../static/assets/lib/plyr/plyr.css" rel="stylesheet">
-  
+
   <link href="../static/assets/css/vik-hor-scroll.css" rel="stylesheet">
 
   <script>
@@ -56,19 +56,19 @@
 
   <!-- ===============================================-->
   <!--    MAIN MENU -->
-  <!-- ===============================================--> 
+  <!-- ===============================================-->
   <nav class="navbar navbar-expand-sm navbar-dark navbar-theme fixed-top py-0">
     <div class="container">
 
-      <a class="navbar-brand font-weight-normal" href="#" id="mute-toggle" data-fancyscroll="data-fancyscroll"
+      <a class="text-400 navbar-brand font-weight-normal" href="#" id="mute-toggle" data-fancyscroll="data-fancyscroll"
         data-toggle="tooltip" data-placement="top" title="Mute / Unmute">
         <i class="fas fa-volume-up" id="mute-icon"></i>
       </a>
-      <a class="navbar-brand font-weight-normal" href="#" id="rnd-toggle" data-fancyscroll="data-fancyscroll"
+      <a class="text-400 navbar-brand font-weight-normal" href="#" id="rnd-toggle" data-fancyscroll="data-fancyscroll"
         data-toggle="tooltip" data-placement="top" title="Play Random / Pause">
         <i class="fas fa-dice" id="rnd-icon"></i>
       </a>
-      <a class="navbar-brand font-weight-normal" href="#" id="play-toggle" data-fancyscroll="data-fancyscroll"
+      <a class="text-400 navbar-brand font-weight-normal" href="#" id="play-toggle" data-fancyscroll="data-fancyscroll"
         data-toggle="tooltip" data-placement="top" title="Play / Pause">
         <i class="fas fa-play" id="play-icon"></i>
       </a>
@@ -121,7 +121,7 @@
         </ul>
 
       </div>
-      
+
     </div>
   </nav>
 
@@ -129,7 +129,6 @@
   <!--    Main Content-->
   <!-- ===============================================-->
   <main>
-
 
     <!-- ============================================-->
     <!-- Preloader ==================================-->
@@ -178,14 +177,12 @@
 
       </div>
     </section>
-    
+
 
   </main>
   <!-- ===============================================-->
   <!--    End of Main Content-->
   <!-- ===============================================-->
-  <a class="btn-back-to-top" href="#top" data-fancyscroll><img src="../static/assets/img/line-icons/upload-arrow.svg"
-      width="8" alt=""></a>
 
 
 
@@ -200,28 +197,37 @@
     <button class="remodal-close" data-remodal-action="close"></button>
     <h4>{{ video.artist | safe }}</h4>
 
-    {% for album in video.albums %}
-    <div class="card-header text-left mt-3">
-      <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+    <div style="position: relative; display: inline-block; width: 100%;">
+      <h4 style="margin: 0;">{{ video.artist | safe }}</h4>
+      <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
+        style="position: absolute; right: 0; top: -15px;">
+        <i class="fas fa-times" id="mute-icon"></i>
+      </a>
     </div>
-    <div class="image-scroll-container">
-      <div class="image-scroll my-2">
-        {% for videoItem in album.albumVideos %}
-        <div class="image-item">
-          <a href="#!" onclick="addVideo('{{ videoItem.src }}');">
-            <img src="{{ videoItem.thumb }}" alt="{{ videoItem.title }}">
-            <div class="image-title">{{ videoItem.title }}</div>
-          </a>
-        </div>
-        {% endfor %}
+
+    <div class="scrollable-box">
+      {% for album in video.albums %}
+      <div class="card-header text-left">
+        <h5 class="fs-1">{{ album.albumName | safe }}</h5>
       </div>
+      <div class="image-scroll-container">
+        <div class="image-scroll my-2">
+          {% for videoItem in album.albumVideos %}
+          <div class="image-item">
+            <a href="#!" onclick="addVideo('{{ videoItem.src }}');">
+              <img src="{{ videoItem.thumb }}" alt="{{ videoItem.title }}">
+              <div class="image-title">{{ videoItem.title }}</div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
 
     <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
   </div>
   {% endfor %} -->
-
 
 
   <!-- MODAL MEDITATIONS -->
@@ -229,23 +235,32 @@
   {% for artist in meditations %}
   <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
     <button class="remodal-close" data-remodal-action="close"></button>
-    <h4>{{ artist.artist | safe }}</h4>
 
-    {% for album in artist.albums %}
-    <div class="card-header text-left mt-3">
-      <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+    <div style="position: relative; display: inline-block; width: 100%;">
+      <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
+      <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
+        style="position: absolute; right: 0; top: -15px;">
+        <i class="fas fa-times" id="mute-icon"></i>
+      </a>
     </div>
-    <ul class="list-group list-group-flush text-left">
-      {% for song in album.albumSongs %}
-      <li class="list-group-item">
-        <p class="card-title font-weight-medium">{{ song.name }}</p>
-        <audio class="player meditation" controls>
-          <source src="{{ song.src }}" type="audio/mp3" />
-        </audio>
-      </li>
+
+    <div class="scrollable-box">
+      {% for album in artist.albums %}
+      <div class="card-header text-left">
+        <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+      </div>
+      <ul class="list-group list-group-flush text-left">
+        {% for song in album.albumSongs %}
+        <li class="list-group-item">
+          <p class="card-title font-weight-medium">{{ song.name }}</p>
+          <audio class="player meditation" controls>
+            <source src="{{ song.src }}" type="audio/mp3" />
+          </audio>
+        </li>
+        {% endfor %}
+      </ul>
       {% endfor %}
-    </ul>
-    {% endfor %}
+    </div>
 
     <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
   </div>
@@ -257,23 +272,32 @@
   {% for artist in soundscapes %}
   <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
     <button class="remodal-close" data-remodal-action="close"></button>
-    <h4>{{ artist.artist | safe }}</h4>
 
-    {% for album in artist.albums %}
-    <div class="card-header text-left mt-3">
-      <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+    <div style="position: relative; display: inline-block; width: 100%;">
+      <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
+      <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
+        style="position: absolute; right: 0; top: -15px;">
+        <i class="fas fa-times" id="mute-icon"></i>
+      </a>
     </div>
-    <ul class="list-group list-group-flush text-left">
-      {% for song in album.albumSongs %}
-      <li class="list-group-item">
-        <p class="card-title font-weight-medium">{{ song.name }}</p>
-        <audio class="player soundscape" controls>
-          <source src="{{ song.src }}" type="audio/mp3" />
-        </audio>
-      </li>
+
+    <div class="scrollable-box">
+      {% for album in artist.albums %}
+      <div class="card-header text-left">
+        <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+      </div>
+      <ul class="list-group list-group-flush text-left">
+        {% for song in album.albumSongs %}
+        <li class="list-group-item">
+          <p class="card-title font-weight-medium">{{ song.name }}</p>
+          <audio class="player soundscape" controls>
+            <source src="{{ song.src }}" type="audio/mp3" />
+          </audio>
+        </li>
+        {% endfor %}
+      </ul>
       {% endfor %}
-    </ul>
-    {% endfor %}
+    </div>
 
     <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
   </div>
@@ -285,29 +309,39 @@
   {% for artist in music %}
   <div class="remodal rounded-soft" data-remodal-id="{{ artist.modal }}">
     <button class="remodal-close" data-remodal-action="close"></button>
-    <h4>{{ artist.artist | safe }}</h4>
 
-    {% for album in artist.albums %}
-    <div class="card-header text-left mt-3">
-      <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+    <div style="position: relative; display: inline-block; width: 100%;">
+      <h4 style="margin: 0;">{{ artist.artist | safe }}</h4>
+      <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
+        style="position: absolute; right: 0; top: -15px;">
+        <i class="fas fa-times" id="mute-icon"></i>
+      </a>
     </div>
-    <ul class="list-group list-group-flush text-left">
-      {% for song in album.albumSongs %}
-      <li class="list-group-item">
-        <p class="card-title font-weight-medium">{{ song.name }}</p>
-        <audio class="player music" controls>
-          <source src="{{ song.src }}" type="audio/mp3" />
-        </audio>
-      </li>
+
+    <div class="scrollable-box">
+      {% for album in artist.albums %}
+      <div class="card-header text-left">
+        <h5 class="fs-1">{{ album.albumName | safe }}</h5>
+      </div>
+      <ul class="list-group list-group-flush text-left">
+        {% for song in album.albumSongs %}
+        <li class="list-group-item">
+          <p class="card-title font-weight-medium">{{ song.name }}</p>
+          <audio class="player meditation" controls>
+            <source src="{{ song.src }}" type="audio/mp3" />
+          </audio>
+        </li>
+        {% endfor %}
+      </ul>
       {% endfor %}
-    </ul>
-    {% endfor %}
+    </div>
 
     <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
   </div>
   {% endfor %}
 
-  <!-- Modal Dialog Boxes close ===================-->
+  <!-- ============================================-->
+  <!-- END of Modal Dialog Boxes ==================-->
   <!-- ============================================-->
 
 
