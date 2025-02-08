@@ -204,7 +204,7 @@
         <i class="fas fa-times" id="mute-icon"></i>
       </a>
     </div>
-    
+
     <div class="scrollable-box">
       {% for album in video.albums %}
       <div class="card-header text-left">
@@ -327,7 +327,7 @@
         {% for song in album.albumSongs %}
         <li class="list-group-item">
           <p class="card-title font-weight-medium">{{ song.name }}</p>
-          <audio class="player music" controls>
+          <audio class="player meditation" controls>
             <source src="{{ song.src }}" type="audio/mp3" />
           </audio>
         </li>

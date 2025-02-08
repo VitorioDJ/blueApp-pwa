@@ -19,62 +19,101 @@
   /* Center the title text */
   margin-right: 10px;
   /* Space between images */
-  position: relative; /* Positioning context for the image */
-  overflow: hidden; /* Hide overflow to keep the frame intact */
-  width: 200px; /* Fixed width to match the image size */
-  height: 150px; /* Fixed height to match the image size */
-  border-radius: 15px; /* Rounded corners for the container */
+  position: relative;
+  /* Positioning context for the image */
+  overflow: hidden;
+  /* Hide overflow to keep the frame intact */
+  width: 200px;
+  /* Fixed width to match the image size */
+  height: 150px;
+  /* Fixed height to match the image size */
+  border-radius: 15px;
+  /* Rounded corners for the container */
 }
 
 .image-item img {
-  width: 100%; /* Make the image fill the container */
-  height: 100%; /* Make the image fill the container */
-  object-fit: cover; /* Maintain aspect ratio and cover the area */
-  transition: transform 0.3s ease; /* Smooth transition */
-  border-radius: 15px; /* Keep the image corners rounded */
+  width: 100%;
+  /* Make the image fill the container */
+  height: 100%;
+  /* Make the image fill the container */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the area */
+  transition: transform 0.3s ease;
+  /* Smooth transition */
+  border-radius: 15px;
+  /* Keep the image corners rounded */
 }
 
 .image-item:hover img {
-  transform: scale(1.05); /* Scale up by 5% on hover */
+  transform: scale(1.05);
+  /* Scale up by 5% on hover */
 }
 
 .image-title {
-  margin-top: 10px; /* Space between image and title */
-  font-weight: bold; /* Make title bold */
+  margin-top: 10px;
+  /* Space between image and title */
+  font-weight: bold;
+  /* Make title bold */
 }
 
 /* Fade Out Title */
 .fade-effect {
-    opacity: 1;
-    animation: fadeOut 10s forwards; /* Total duration: 10s */
-  }
-
-  @keyframes fadeOut {
-    0% {
-      opacity: 1; /* 100% opacity */
-    }
-    80% {
-      opacity: 1; /* Stay at 100% for 8 seconds */
-    }
-    100% {
-      opacity: 0.0; /* Fade to 30% opacity */
-    }
-  }
-
-  /* Hover effect */
-  #logo:hover,
-  #sub-title:hover {
-    opacity: 1 !important; /* Return to 100% opacity on hover */
-    animation: none; /* Stop the fade-out animation */
-  }
-
-  /* Scroll inside MODAL */
-  .scrollable-box {
-    max-width: 600px; /* Set your desired max width */
-    max-height: 70vh; /* Set max height to 80% of the viewport height */
-    overflow-y: auto; /* Enable vertical scrolling */
-    /* padding: 10px; */
-    background-color: #f9f9f9; /* Optional: Background color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  opacity: 1;
+  animation: fadeOut 10s forwards;
+  /* Total duration: 10s */
 }
 
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    /* 100% opacity */
+  }
+
+  80% {
+    opacity: 1;
+    /* Stay at 100% for 8 seconds */
+  }
+
+  100% {
+    opacity: 0.0;
+    /* Fade to 30% opacity */
+  }
+}
+
+/* Hover effect */
+#logo:hover,
+#sub-title:hover {
+  opacity: 1 !important;
+  /* Return to 100% opacity on hover */
+  animation: none;
+  /* Stop the fade-out animation */
+}
+
+/* Scroll inside MODAL */
+.scrollable-box {
+  max-width: 900px;
+  /* Set your desired max width */
+  max-height: 70vh;
+  /* Set max height to 80% of the viewport height */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  /* padding: 10px; */
+  background-color: #f9f9f9;
+  /* Optional: Background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional: Add a shadow */
+}
+
+/* Hide the mute icon in portrait mode */
+@media (orientation: portrait) {
+  .mute-icon {
+    display: none;
+  }
+}
+
+/* Show the mute icon in landscape mode */
+@media (orientation: landscape) {
+  .mute-icon {
+    display: inline-block; /* or 'block' depending on your layout */
+  }
+}
