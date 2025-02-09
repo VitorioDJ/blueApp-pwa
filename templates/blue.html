@@ -37,6 +37,8 @@
   <link href="../static/assets/css/theme.css" rel="stylesheet">
   <link href="../static/assets/lib/plyr/plyr.css" rel="stylesheet">
 
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" /> -->
+  <link href="../static/assets/lib/ion.rangeSlider/css/ion.rangeSlider.min.css" rel="stylesheet">
   <link href="../static/assets/css/vik-hor-scroll.css" rel="stylesheet">
 
   <script>
@@ -60,16 +62,16 @@
   <nav class="navbar navbar-expand-sm navbar-dark navbar-theme fixed-top py-0">
     <div class="container">
 
-      <a class="text-400 navbar-brand font-weight-normal" href="#" id="mute-toggle" data-fancyscroll="data-fancyscroll"
-        data-toggle="tooltip" data-placement="top" title="Mute / Unmute">
+      <a class="text-400 navbar-brand font-weight-normal" href="#" id="mute-toggle" data-remodal-target="modal-volume"
+        data-toggle="tooltip" data-placement="top" title="Volume">
         <i class="fas fa-volume-up" id="mute-icon"></i>
       </a>
-      <a class="text-400 navbar-brand font-weight-normal" href="#" id="rnd-toggle" data-fancyscroll="data-fancyscroll"
-        data-toggle="tooltip" data-placement="top" title="Play Random / Pause">
+      <a class="text-400 navbar-brand font-weight-normal" href="#" id="rnd-toggle" data-toggle="tooltip"
+        data-placement="top" title="Play Random / Pause">
         <i class="fas fa-dice" id="rnd-icon"></i>
       </a>
-      <a class="text-400 navbar-brand font-weight-normal" href="#" id="play-toggle" data-fancyscroll="data-fancyscroll"
-        data-toggle="tooltip" data-placement="top" title="Play / Pause">
+      <a class="text-400 navbar-brand font-weight-normal" href="#" id="play-toggle" data-toggle="tooltip"
+        data-placement="top" title="Play / Pause">
         <i class="fas fa-play" id="play-icon"></i>
       </a>
 
@@ -340,9 +342,21 @@
   </div>
   {% endfor %}
 
+
+  <!-- MODAL VOLUME -->
+
+  <div class="remodal rounded-soft" data-remodal-id="modal-volume">
+    <button class="remodal-close" data-remodal-action="close"></button>
+    <h4>Player <span class="font-weight-bold"> Volume</span></h4>
+    <div id="vol1_block"><input type="text" id="volume_1" /><br></div>
+    <div id="vol2_block"><input type="text" id="volume_2" /><br></div>
+    <button class="btn btn-sm btn-dark mr-3" data-remodal-action="confirm">OK</button>
+  </div>
+
   <!-- ============================================-->
   <!-- END of Modal Dialog Boxes ==================-->
   <!-- ============================================-->
+
 
 
   <!-- ===============================================-->
@@ -366,6 +380,8 @@
   <script src="../static/assets/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
   <script src="../static/assets/lib/hover-dir/jquery.hoverdir.js"></script>
 
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script> -->
+  <script src="../static/assets/lib/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
   <script src="../static/js_blue_app/blue.js"></script>
 </body>
 

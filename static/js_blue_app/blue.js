@@ -63,10 +63,10 @@ function toggleMute() {
 }
 
 // Add event listener to the mute toggle menu item
-document.getElementById('mute-toggle').addEventListener('click', (event) => {
-    event.preventDefault(); // Prevent default anchor behavior
-    toggleMute(); // Call the toggle mute function
-});
+// document.getElementById('mute-toggle').addEventListener('click', (event) => {
+//     event.preventDefault(); // Prevent default anchor behavior
+//     toggleMute(); // Call the toggle mute function
+// });
 
 
 //---------------------------
@@ -118,6 +118,7 @@ function togglePlaying(playType) {
 document.getElementById('rnd-toggle').addEventListener('click', (event) => {
     event.preventDefault(); // Prevent default anchor behavior
     togglePlaying('rnd'); // Call the toggle playing function
+    vol2Block.style.display = "none";
 });
 
 // Add event listener to PLAY icon
@@ -204,6 +205,7 @@ function pauseSmartOtherAudio(selectedPlayer) {
     const audioElements = document.querySelectorAll('audio');
     const playingAudioPlayers = Array.from(audioElements).filter(audio => !audio.paused);
     let currentPlayer = playingAudioPlayers[0];
+    let vol2Block = document.getElementById("vol2_block");
 
     // console.log(selectedPlayer);
     // console.log(currentPlayer);
@@ -214,29 +216,36 @@ function pauseSmartOtherAudio(selectedPlayer) {
         players.forEach(otherPlayer => {
             if (otherPlayer !== selectedPlayer) {
                 otherPlayer.pause();
+                vol2Block.style.display = "none";
             }
         });
     } else if (playingAudioPlayers.length == 2) {
         if (playingAudioPlayers[0].classList.contains('soundscape') && playingAudioPlayers[1].classList.contains('meditation')) {
             // console.log('Soundscape + Meditation -> keep playing');
+            vol2Block.style.display = "block";
         } else if (playingAudioPlayers[0].classList.contains('meditation') && playingAudioPlayers[1].classList.contains('soundscape')) {
             // console.log('Meditation + Soundscape -> keep playing');
+            vol2Block.style.display = "block";
         } else {
             players.forEach(otherPlayer => {
                 if (otherPlayer !== selectedPlayer) {
                     otherPlayer.pause();
+                    vol2Block.style.display = "none";
                 }
             });
         }
     } else {
         if (selectedPlayer.classList.contains('soundscape') && currentPlayer.classList.contains('meditation')) {
             // console.log('Soundscape + Meditation -> keep playing');
+            vol2Block.style.display = "block";
         } else if (selectedPlayer.classList.contains('meditation') && currentPlayer.classList.contains('soundscape')) {
             // console.log('Meditation + Soundscape -> keep playing');
+            vol2Block.style.display = "block";
         } else {
             players.forEach(otherPlayer => {
                 if (otherPlayer !== selectedPlayer) {
                     otherPlayer.pause();
+                    vol2Block.style.display = "none";
                 }
             });
         }
@@ -336,21 +345,8 @@ dropdownItems.forEach(item => {
 });
 
 
-// On Loading the page -> MAX all AUDIO players
-window.onload = function () {
-    // Select all audio elements on the page
-    const audioElements = document.querySelectorAll('audio');
-
-    // Set the volume of each audio element to maximum (1.0)
-    audioElements.forEach(audio => {
-        audio.volume = 1.0; // Set volume to maximum
-    });
-};
-
-
-
 // Event Listener on Dropdown Menu icon (only mobile)
-document.getElementById('navbarToggle').addEventListener('click', function() {
+document.getElementById('navbarToggle').addEventListener('click', function () {
     const icon = this.querySelector('.navbar-open-icon');
     if (icon.classList.contains('fa-bars')) {
         icon.classList.remove('fa-bars');
@@ -361,3 +357,78 @@ document.getElementById('navbarToggle').addEventListener('click', function() {
     }
 });
 
+
+// Volume Sliders
+document.addEventListener("DOMContentLoaded", function () {
+    var slider1 = document.getElementById("volume_1");
+    var slider2 = document.getElementById("volume_2");
+
+    $(slider1).ionRangeSlider({
+        skin: "flat",
+        min: 0,
+        max: 100,
+        from: 100,
+        onChange: function (data) {
+            updateVolume1(data.from);
+        }
+    });
+
+    $(slider2).ionRangeSlider({
+        skin: "flat",
+        min: 0,
+        max: 100,
+        from: 100,
+        onChange: function (data) {
+            updateVolume2(data.from);
+        }
+    });
+
+    function updateVolume1(volume) {
+        // Convert the volume from a percentage (0-100) to a scale (0.0-1.0)
+        var volumeValue = volume / 100;
+        // Get all audio elements
+        var audioElements = document.querySelectorAll('audio');
+        // Filter to find currently playing audio elements
+        var playingAudioElements = Array.from(audioElements).filter(audio => !audio.paused);
+        
+        if (playingAudioElements.length === 1) {
+            // If there's only one currently playing audio player, adjust volume of all audio players
+            audioElements.forEach(function (audio) {
+                audio.volume = volumeValue;
+            });
+        } else if (playingAudioElements.length > 1) {
+            // If there are multiple currently playing audio players, adjust volume of the first one only
+            playingAudioElements[0].volume = volumeValue;
+        }
+    }
+
+    function updateVolume2(volume) {
+        // Convert the volume from a percentage (0-100) to a scale (0.0-1.0)
+        var volumeValue = volume / 100;
+        // Get all audio elements
+        var audioElements = document.querySelectorAll('audio');
+        // Filter to find currently playing audio elements
+        var playingAudioElements = Array.from(audioElements).filter(audio => !audio.paused);
+        
+        if (playingAudioElements.length > 1) {
+            // If there are more than one currently playing audio players, adjust volume of the second one
+            playingAudioElements[1].volume = volumeValue;
+        }
+    }
+
+});
+
+
+
+// On Loading the page -> MAX all AUDIO players
+window.onload = function () {
+    // Select all audio elements on the page
+    const audioElements = document.querySelectorAll('audio');
+    let vol2Block = document.getElementById("vol2_block");
+
+    // Set the volume of each audio element to maximum (1.0)
+    audioElements.forEach(audio => {
+        audio.volume = 1.0; // Set volume to maximum
+    });
+    vol2Block.style.display = "none";
+};
