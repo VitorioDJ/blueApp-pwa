@@ -30,7 +30,7 @@
   display: inline-block;
   /* Allow images and titles to be in a column */
   text-align: center;
-  margin-right: 10px;
+  margin: 0px 3px;
   position: relative;
   overflow: hidden;
   /* Hide overflow to keep the frame intact */
@@ -107,6 +107,6 @@
   /* Enable vertical scrolling */
   background-color: #f7f0e3;
   /* Optional: Background color (#f7ede9) (#f7f0e3) (#FCFAF6)  */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   /* Optional: Add a shadow */
 }
