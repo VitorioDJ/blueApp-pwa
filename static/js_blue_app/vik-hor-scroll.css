@@ -5,7 +5,7 @@
   /* Enable horizontal scrolling */
   white-space: nowrap;
   /* Prevent line breaks */
-  background-color: #FFFFFF;
+  background-color: #FCFAF6;
   display: flex; /* Use flexbox for layout */
   align-items: center; /* Center items vertically */
 }
@@ -21,9 +21,9 @@
   border: none;
   cursor: pointer;
   font-size: 24px; /* Adjust size as needed */
-  padding: 10px; /* Add some padding */
+  padding: 5px; /* Add some padding */
   color: #888787; /* Change color as needed */
-  margin: 0 5px;
+  margin: 0 0px;
 }
 
 .image-item {
