@@ -5,6 +5,7 @@
   /* Enable horizontal scrolling */
   white-space: nowrap;
   /* Prevent line breaks */
+  background-color: #FFFFFF;
 }
 
 .image-scroll {

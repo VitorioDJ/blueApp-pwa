@@ -34,75 +34,30 @@
               ]
           },
           {
-              "albumName": "<span class='font-weight-bold'>Landscape</span> Scenes",
+              "albumName": "<span class='font-weight-bold'>Ink</span> Scenes",
               "albumVideos": [
                   {
-                    "title": "New Zealand Flyover",
-                    "thumb": "/static/assets/media-cms/video/landscape/ls-nz-flyover.jpg",
-                    "src": "/static/assets/media-cms/video/landscape/ls-nz-flyover.mp4"
+                    "title": "Ink In Water 1",
+                    "thumb": "/static/assets/media-cms/video/ink/ink01.jpg",
+                    "src": "/static/assets/media-cms/video/ink/ink01.mp4"
                   },
                   {
-                    "title": "Scotland Flyover",
-                    "thumb": "/static/assets/media-cms/video/landscape/ls-scotland.jpg",
-                    "src": "/static/assets/media-cms/video/landscape/ls-scotland.mp4"
+                    "title": "Ink In Water 2",
+                    "thumb": "/static/assets/media-cms/video/ink/ink02.jpg",
+                    "src": "/static/assets/media-cms/video/ink/ink02.mp4"
                   },
                   {
-                    "title": "Madeira Flyover",
-                    "thumb": "/static/assets/media-cms/video/landscape/ls-madeira.jpg",
-                    "src": "/static/assets/media-cms/video/landscape/ls-madeira.mp4"
+                    "title": "Ink In Water 3",
+                    "thumb": "/static/assets/media-cms/video/ink/ink03.jpg",
+                    "src": "/static/assets/media-cms/video/ink/ink03.mp4"
                   },
                   {
-                    "title": "Alps & Dolomites Flyover",
-                    "thumb": "/static/assets/media-cms/video/landscape/ls-dolomites.jpg",
-                    "src": "/static/assets/media-cms/video/landscape/ls-dolomites.mp4"
+                    "title": "Ink In Water 4",
+                    "thumb": "/static/assets/media-cms/video/ink/ink04.jpg",
+                    "src": "/static/assets/media-cms/video/ink/ink04.mp4"
                   }
               ]
-          },
-          {
-              "albumName": "<span class='font-weight-bold'>Time</span> Lapse",
-              "albumVideos": [
-                {
-                    "title": "Atacama Desert",
-                    "thumb": "/static/assets/media-cms/video/timelapse/tt-atacama.jpg",
-                    "src": "/static/assets/media-cms/video/timelapse/tt-atacama.mp4"
-                  },
-                  {
-                    "title": "Night Stars",
-                    "thumb": "/static/assets/media-cms/video/timelapse/tt-stars-timelapse.jpg",
-                    "src": "/static/assets/media-cms/video/timelapse/tt-stars-timelapse.mp4"
-                  },
-                  {
-                    "title": "Northern Lights - Alaska",
-                    "thumb": "/static/assets/media-cms/video/timelapse/tt-north-light-alaska.jpg",
-                    "src": "/static/assets/media-cms/video/timelapse/tt-north-light-alaska.mp4"
-                  }
-              ]
-          },
-          {
-            "albumName": "<span class='font-weight-bold'>Fractal</span> Scapes",
-            "albumVideos": [
-              {
-                  "title": "Fractal Trip I",
-                  "thumb": "/static/assets/media-cms/video/fractal/mt-trip-i-fin.jpg",
-                  "src": "/static/assets/media-cms/video/fractal/mt-trip-i-fin.mp4"
-                },
-                {
-                  "title": "Next Dimension",
-                  "thumb": "/static/assets/media-cms/video/fractal/mt-next-dim-fin.jpg",
-                  "src": "/static/assets/media-cms/video/fractal/mt-next-dim-fin.mp4"
-                },
-                {
-                  "title": "Dream I",
-                  "thumb": "/static/assets/media-cms/video/fractal/mt-dream-fin.jpg",
-                  "src": "/static/assets/media-cms/video/fractal/mt-dream-fin.mp4"
-                },
-                {
-                  "title": "Fractal Trip II",
-                  "thumb": "/static/assets/media-cms/video/fractal/mt-trip-ii-fin.jpg",
-                  "src": "/static/assets/media-cms/video/fractal/mt-trip-ii-fin.mp4"
-                }
-            ]
-        }
+          }
       ]
   }
 ]

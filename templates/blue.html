@@ -38,8 +38,8 @@
   <link href="../static/assets/lib/plyr/plyr.css" rel="stylesheet">
 
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" /> -->
-  <link href="../static/assets/lib/ion.rangeSlider/css/ion.rangeSlider.min.css" rel="stylesheet">
-  <link href="../static/assets/css/vik-hor-scroll.css" rel="stylesheet">
+  <link href="../static/assets/lib/ion.rangeSlider/css/ion.rangeSlider.css" rel="stylesheet">
+  <link href="../static/js_blue_app/vik-hor-scroll.css" rel="stylesheet">
 
   <script>
     if ('serviceWorker' in navigator) {
@@ -117,7 +117,7 @@
                 onclick="addVideo('/static/assets/media-cms/video/water/water-02.mp4');">Crystaline</a>
               <a class="dropdown-item" href="#!"
                 onclick="addVideo('/static/assets/media-cms/video/water/1080x720_jellyfish-01-60s.mp4');">Jelly Fish</a>
-              <!-- <a class="dropdown-item" href="#!" data-remodal-target="modal-video">More...</a> -->
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-video">More...</a>
             </div>
           </li>
         </ul>
@@ -194,15 +194,14 @@
 
   <!-- MODAL VIDEO -->
 
-  <!-- {% for video in videos %}
+  {% for video in videos %}
   <div class="remodal rounded-soft" data-remodal-id="{{ video.modal }}">
-    <button class="remodal-close" data-remodal-action="close"></button>
-    <h4>{{ video.artist | safe }}</h4>
+    <!-- <button class="remodal-close" data-remodal-action="close"></button> -->
 
     <div style="position: relative; display: inline-block; width: 100%;">
       <h4 style="margin: 0;">{{ video.artist | safe }}</h4>
       <a class="text-900 navbar-brand" href="#" data-toggle="tooltip" data-placement="top" title="Mute / Unmute"
-        style="position: absolute; right: 0; top: -15px;">
+        style="position: absolute; right: -20px; top: -15px;">
         <i class="fas fa-times" id="mute-icon"></i>
       </a>
     </div>
@@ -213,6 +212,9 @@
         <h5 class="fs-1">{{ album.albumName | safe }}</h5>
       </div>
       <div class="image-scroll-container">
+        <div class="scroll-button left-button">
+          <i class="fas fa-angle-right"></i>
+        </div>
         <div class="image-scroll my-2">
           {% for videoItem in album.albumVideos %}
           <div class="image-item">
@@ -223,13 +225,16 @@
           </div>
           {% endfor %}
         </div>
+        <div class="scroll-button right-button">
+          <i class="fas fa-angle-left"></i>
+        </div>
       </div>
       {% endfor %}
     </div>
 
     <button class="btn btn-sm btn-dark mr-3 mt-3" data-remodal-action="confirm">OK</button>
   </div>
-  {% endfor %} -->
+  {% endfor %}
 
 
   <!-- MODAL MEDITATIONS -->

@@ -399,6 +399,11 @@ document.addEventListener("DOMContentLoaded", function () {
         } else if (playingAudioElements.length > 1) {
             // If there are multiple currently playing audio players, adjust volume of the first one only
             playingAudioElements[0].volume = volumeValue;
+        } else {
+            // If are NO currently playing audio player, adjust volume of all audio players (for future play)
+            audioElements.forEach(function (audio) {
+                audio.volume = volumeValue;
+            });
         }
     }
 
@@ -415,10 +420,8 @@ document.addEventListener("DOMContentLoaded", function () {
             playingAudioElements[1].volume = volumeValue;
         }
     }
-
+    
 });
-
-
 
 // On Loading the page -> MAX all AUDIO players
 window.onload = function () {
