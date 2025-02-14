@@ -8,28 +8,28 @@
               "albumVideos": [
                 {
                     "title": "Blue Wave",
-                    "thumb": "/static/assets/media-cms/video/water/blue-wave.jpg",
-                    "src": "/static/assets/media-cms/video/water/blue-wave.mp4"
+                    "thumb": "https://club-of-life.com/media-cms/video/water/blue-wave.jpg",
+                    "src": "https://club-of-life.com/media-cms/video/water/blue-wave.mp4"
                 },
                 {
                     "title": "Blue",
-                    "thumb": "/static/assets/media-cms/video/water/water-01.jpg",
-                    "src": "/static/assets/media-cms/video/water/water-01.mp4"
+                    "thumb": "https://club-of-life.com/media-cms/video/water/water-01.jpg",
+                    "src": "https://club-of-life.com/media-cms/video/water/water-01.mp4"
                 },
                 {
                     "title": "Crystaline",
-                    "thumb": "/static/assets/media-cms/video/water/water-02.jpg",
-                    "src": "/static/assets/media-cms/video/water/water-02.mp4" 
+                    "thumb": "https://club-of-life.com/media-cms/video/water/water-02.jpg",
+                    "src": "https://club-of-life.com/media-cms/video/water/water-02.mp4" 
                 },
                 {
                     "title": "Whales",
-                    "thumb": "/static/assets/media-cms/video/water/ob-whales-fast.jpg",
-                    "src": "/static/assets/media-cms/video/water/ob-whales-fast.mp4"
+                    "thumb": "https://club-of-life.com/media-cms/video/water/ob-whales-fast.jpg",
+                    "src": "https://club-of-life.com/media-cms/video/water/ob-whales-fast.mp4"
                 },
                 {
                   "title": "Jelly Fish",
-                  "thumb": "/static/assets/media-cms/video/water/1080x720_jellyfish-01-60s.jpg",
-                  "src": "/static/assets/media-cms/video/water/1080x720_jellyfish-01-60s.mp4"
+                  "thumb": "https://club-of-life.com/media-cms/video/water/1080x720_jellyfish-01-60s.jpg",
+                  "src": "https://club-of-life.com/media-cms/video/water/1080x720_jellyfish-01-60s.mp4"
               }
               ]
           },
@@ -38,23 +38,23 @@
               "albumVideos": [
                   {
                     "title": "Ink In Water 1",
-                    "thumb": "/static/assets/media-cms/video/ink/ink01.jpg",
-                    "src": "/static/assets/media-cms/video/ink/ink01.mp4"
+                    "thumb": "https://club-of-life.com/media-cms/video/ink/ink01.jpg",
+                    "src": "https://club-of-life.com/media-cms/video/ink/ink01.mp4"
                   },
                   {
                     "title": "Ink In Water 2",
-                    "thumb": "/static/assets/media-cms/video/ink/ink02.jpg",
-                    "src": "/static/assets/media-cms/video/ink/ink02.mp4"
+                    "thumb": "https://club-of-life.com/media-cms/video/ink/ink02.jpg",
+                    "src": "https://club-of-life.com/media-cms/video/ink/ink02.mp4"
                   },
                   {
                     "title": "Ink In Water 3",
-                    "thumb": "/static/assets/media-cms/video/ink/ink03.jpg",
-                    "src": "/static/assets/media-cms/video/ink/ink03.mp4"
+                    "thumb": "https://club-of-life.com/media-cms/video/ink/ink03.jpg",
+                    "src": "https://club-of-life.com/media-cms/video/ink/ink03.mp4"
                   },
                   {
                     "title": "Ink In Water 4",
-                    "thumb": "/static/assets/media-cms/video/ink/ink04.jpg",
-                    "src": "/static/assets/media-cms/video/ink/ink04.mp4"
+                    "thumb": "https://club-of-life.com/media-cms/video/ink/ink04.jpg",
+                    "src": "https://club-of-life.com/media-cms/video/ink/ink04.mp4"
                   }
               ]
           }

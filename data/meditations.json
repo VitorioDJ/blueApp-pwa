@@ -8,27 +8,27 @@
               "albumSongs": [
                   {
                       "name": "Heart Temple Meditation",
-                      "src": "/static/assets/media-cms/meditation/vitorio/ob-medit-heart-temple.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/ob-medit-heart-temple.mp3"
                   },
                   {
                       "name": "Power Center Meditation",
-                      "src": "/static/assets/media-cms/meditation/vitorio/ob-medit-power-center.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/ob-medit-power-center.mp3"
                   },
                   {
                       "name": "Observing The Thoughts Meditation",
-                      "src": "/static/assets/media-cms/meditation/vitorio/ob-medit-head-observing-thoughts.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/ob-medit-head-observing-thoughts.mp3"
                   },
                   {
                       "name": "DNA Expand Meditation",
-                      "src": "/static/assets/media-cms/meditation/vitorio/ob-medit-dna-expand.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/ob-medit-dna-expand.mp3"
                   },
                   {
                       "name": "Gratitude Meditation",
-                      "src": "/static/assets/media-cms/meditation/vitorio/ob-medit-gratitude.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/ob-medit-gratitude.mp3"
                   },
                   {
                       "name": "Divine Love",
-                      "src": "/static/assets/media-cms/meditation/vitorio/iu-medit-skip-divine-love.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/iu-medit-skip-divine-love.mp3"
                   }
               ]
           },
@@ -37,11 +37,11 @@
               "albumSongs": [
                   {
                       "name": "Relax Deeper (4 minutes)",
-                      "src": "/static/assets/media-cms/meditation/vitorio/iu-wk02-medit-relax-4min.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/iu-wk02-medit-relax-4min.mp3"
                   },
                   {
                       "name": "Relax Deeper (12 minutes)",
-                      "src": "/static/assets/media-cms/meditation/vitorio/iu-wk02-medit-relax-12min.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/iu-wk02-medit-relax-12min.mp3"
                   }
               ]
           },
@@ -50,19 +50,19 @@
               "albumSongs": [
                   {
                       "name": "Body Scan Meditation",
-                      "src": "/static/assets/media-cms/meditation/vitorio/pi-wk02-medit-body-scan.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/pi-wk02-medit-body-scan.mp3"
                   },
                   {
                       "name": "Infinite Source Within",
-                      "src": "/static/assets/media-cms/meditation/vitorio/pi-wk02-medit-inf-source-within.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/pi-wk02-medit-inf-source-within.mp3"
                   },
                   {
                       "name": "Wise One Within",
-                      "src": "/static/assets/media-cms/meditation/vitorio/pi-wk03-medit-wise-one-within-all.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/pi-wk03-medit-wise-one-within-all.mp3"
                   },
                   {
                       "name": "Root Center Meditation",
-                      "src": "/static/assets/media-cms/meditation/vitorio/pi-wk04-medit-root.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/vitorio/pi-wk04-medit-root.mp3"
                   }
               ]
           }
@@ -77,7 +77,7 @@
               "albumSongs": [
                   {
                       "name": "Higher Heart Meditation",
-                      "src": "/static/assets/media-cms/meditation/evia/evia-HigherHeart-Wish-meditation.mp3"
+                      "src": "https://club-of-life.com/media-cms/meditation/evia/evia-HigherHeart-Wish-meditation.mp3"
                   }
               ]
           }

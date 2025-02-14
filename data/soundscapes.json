@@ -8,15 +8,15 @@
         "albumSongs": [
           {
             "name": "Ages Away (1h)",
-            "src": "/static/assets/media-cms/sound/meditation-music/07-ages-away-1h.mp3"
+            "src": "https://club-of-life.com/media-cms/sound/meditation-music/07-ages-away-1h.mp3"
           },
           {
             "name": "Healing Fire (1h)",
-            "src": "/static/assets/media-cms/sound/meditation-music/08-healing-fire-1h.mp3"
+            "src": "https://club-of-life.com/media-cms/sound/meditation-music/08-healing-fire-1h.mp3"
           },
           {
             "name": "Healing Energy (1h)",
-            "src": "/static/assets/media-cms/sound/meditation-music/01-healing-energy-1h.mp3"
+            "src": "https://club-of-life.com/media-cms/sound/meditation-music/01-healing-energy-1h.mp3"
           }
         ]
       }

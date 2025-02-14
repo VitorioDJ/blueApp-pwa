@@ -1,5 +1,7 @@
 env/
+data/old/
 static/assets/media-cms
+static/assets/media-cms-old
 .DS_Store
 blueApp-pwa.conf
 AI.txt
