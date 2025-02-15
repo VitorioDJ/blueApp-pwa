@@ -110,13 +110,13 @@
               aria-expanded="false" id="dropdown3"><b>Video</b></a>
             <div class="dropdown-menu" aria-labelledby="dropdown3">
               <a class="dropdown-item" href="#!"
-                onclick="addVideo('/static/assets/media-cms/video/water/blue-wave.mp4');">Blue Wave</a>
+                onclick="addVideo('https://club-of-life.com/media-cms/video/water/blue-wave.mp4');">Blue Wave</a>
               <a class="dropdown-item" href="#!"
-                onclick="addVideo('/static/assets/media-cms/video/water/water-01.mp4');">Blue Water</a>
+                onclick="addVideo('https://club-of-life.com/media-cms/video/water/water-01.mp4');">Blue Water</a>
               <a class="dropdown-item" href="#!"
-                onclick="addVideo('/static/assets/media-cms/video/water/water-02.mp4');">Crystaline</a>
+                onclick="addVideo('https://club-of-life.com/media-cms/video/water/water-02.mp4');">Crystaline</a>
               <a class="dropdown-item" href="#!"
-                onclick="addVideo('/static/assets/media-cms/video/water/1080x720_jellyfish-01-60s.mp4');">Jelly Fish</a>
+                onclick="addVideo('https://club-of-life.com/media-cms/video/water/1080x720_jellyfish-01-60s.mp4');">Jelly Fish</a>
               <a class="dropdown-item" href="#!" data-remodal-target="modal-video">More...</a>
             </div>
           </li>
@@ -154,13 +154,25 @@
 
     <section class="py-0 text-center" id="top" data-zanim-timeline="{}" data-zanim-trigger="scroll">
 
-      <div class="bg-holder overlay overlay-z-index-1"
+      <!-- <div class="bg-holder overlay overlay-z-index-1"
         style="background-image:url(../static/assets/img/headers/header-blue.jpg);">
 
         <video class="bg-video" autoplay="autoplay" loop="loop" muted="muted">
           <source src="https://club-of-life.com/media-cms/video/water/blue-wave.mp4" type="video/mp4">
         </video>
 
+      </div> -->
+
+      {% set album_index = 0 %} {# Specify the index of the video you want to use #}
+      {% set video_index = 0 %} {# Specify the index of the video you want to use #}
+      {% set default_video_src = videos[0].albums[album_index].albumVideos[video_index].src %}
+      {% set default_thumb_src = videos[0].albums[album_index].albumVideos[video_index].thumb %}
+
+      <div class="bg-holder overlay overlay-z-index-1" id="video-background"
+        style="background-image:url({{ default_thumb_src }});">
+        <video class="bg-video" id="bg-video" autoplay="autoplay" loop="loop" muted="muted">
+          <source src="{{ default_video_src }}" type="video/mp4">
+        </video>
       </div>
 
       <div class="header-overlay"></div>
