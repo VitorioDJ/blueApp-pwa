@@ -212,6 +212,15 @@
         ]
       },
       {
+        "albumName": "<span class='font-weight-bold'>Ambient</span> Sounds",
+        "albumSongs": [
+          {
+            "name": "Tantric Situation",
+            "src": "https://app.ooblue.is/media-cms/sound/pepe-ext/tantric-situation.mp3"
+          }
+        ]
+      },
+      {
         "albumName": "<span class='font-weight-bold'>Ecstatic</span> Dances",
         "albumSongs": [
           {

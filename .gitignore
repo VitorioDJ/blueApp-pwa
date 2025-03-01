@@ -5,3 +5,4 @@ static/assets/media-cms-old
 .DS_Store
 blueApp-pwa.conf
 AI.txt
+syncAppMedia.py
