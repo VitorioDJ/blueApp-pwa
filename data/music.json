@@ -91,11 +91,15 @@
         ]
       },
       {
-        "albumName": "<span class='font-weight-bold'>Hanuman</span> Chalisa",
+        "albumName": "<span class='font-weight-bold'>Live</span> Music",
         "albumSongs": [
           {
             "name": "Hanuman Chalisa Lullaby",
-            "src": "https://app.ooblue.is/media-cms/sound/david-neelam-hanuman/hanuman-chalisa.mp3"
+            "src": "https://app.ooblue.is/media-cms/sound/david-neelam-live/hanuman-chalisa.mp3"
+          },
+          {
+            "name": "You Cary The Ocean",
+            "src": "https://app.ooblue.is/media-cms/sound/david-neelam-live/hanuman-chalisa.mp3"
           }
         ]
       }
