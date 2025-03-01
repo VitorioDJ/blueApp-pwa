@@ -8,28 +8,28 @@
         "albumVideos": [
           {
             "title": "Blue Wave",
-            "thumb": "https://club-of-life.com/media-cms/video/water/blue-wave.jpg",
-            "src": "https://club-of-life.com/media-cms/video/water/blue-wave.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/water/blue-wave.jpg",
+            "src": "https://app.blue.is/media-cms/video/water/blue-wave.mp4"
           },
           {
             "title": "Blue",
-            "thumb": "https://club-of-life.com/media-cms/video/water/water-01.jpg",
-            "src": "https://club-of-life.com/media-cms/video/water/water-01.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/water/water-01.jpg",
+            "src": "https://app.blue.is/media-cms/video/water/water-01.mp4"
           },
           {
             "title": "Crystaline",
-            "thumb": "https://club-of-life.com/media-cms/video/water/water-02.jpg",
-            "src": "https://club-of-life.com/media-cms/video/water/water-02.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/water/water-02.jpg",
+            "src": "https://app.blue.is/media-cms/video/water/water-02.mp4"
           },
           {
             "title": "Whales",
-            "thumb": "https://club-of-life.com/media-cms/video/water/ob-whales-fast.jpg",
-            "src": "https://club-of-life.com/media-cms/video/water/ob-whales-fast.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/water/ob-whales-fast.jpg",
+            "src": "https://app.blue.is/media-cms/video/water/ob-whales-fast.mp4"
           },
           {
             "title": "Jelly Fish",
-            "thumb": "https://club-of-life.com/media-cms/video/water/1080x720_jellyfish-01-60s.jpg",
-            "src": "https://club-of-life.com/media-cms/video/water/1080x720_jellyfish-01-60s.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/water/1080x720_jellyfish-01-60s.jpg",
+            "src": "https://app.blue.is/media-cms/video/water/1080x720_jellyfish-01-60s.mp4"
           }
         ]
       },
@@ -38,23 +38,23 @@
         "albumVideos": [
           {
             "title": "Ink In Water 1",
-            "thumb": "https://club-of-life.com/media-cms/video/ink/ink01.jpg",
-            "src": "https://club-of-life.com/media-cms/video/ink/ink01.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/ink/ink01.jpg",
+            "src": "https://app.blue.is/media-cms/video/ink/ink01.mp4"
           },
           {
             "title": "Ink In Water 2",
-            "thumb": "https://club-of-life.com/media-cms/video/ink/ink02.jpg",
-            "src": "https://club-of-life.com/media-cms/video/ink/ink02.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/ink/ink02.jpg",
+            "src": "https://app.blue.is/media-cms/video/ink/ink02.mp4"
           },
           {
             "title": "Ink In Water 3",
-            "thumb": "https://club-of-life.com/media-cms/video/ink/ink03.jpg",
-            "src": "https://club-of-life.com/media-cms/video/ink/ink03.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/ink/ink03.jpg",
+            "src": "https://app.blue.is/media-cms/video/ink/ink03.mp4"
           },
           {
             "title": "Ink In Water 4",
-            "thumb": "https://club-of-life.com/media-cms/video/ink/ink04.jpg",
-            "src": "https://club-of-life.com/media-cms/video/ink/ink04.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/ink/ink04.jpg",
+            "src": "https://app.blue.is/media-cms/video/ink/ink04.mp4"
           }
         ]
       },
@@ -63,128 +63,128 @@
         "albumVideos": [
           {
             "title": "Random 04",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-04.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-04.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-04.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-04.mp4"
           },
           {
             "title": "Random 05",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-05.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-05.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-05.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-05.mp4"
           },
           {
             "title": "Random 06",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-06.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-06.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-06.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-06.mp4"
           },
           {
             "title": "Random 07",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-07.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-07.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-07.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-07.mp4"
           },
           {
             "title": "Random 08",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-08.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-08.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-08.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-08.mp4"
           },
           {
             "title": "Random 09",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-09.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-09.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-09.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-09.mp4"
           },
           {
             "title": "Random 12",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-12.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-12.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-12.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-12.mp4"
           },
           {
             "title": "Random 13",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-13.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-13.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-13.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-13.mp4"
           },
           {
             "title": "Random 14",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-14.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-14.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-14.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-14.mp4"
           },
           {
             "title": "Random 15",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-15.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-15.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-15.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-15.mp4"
           },
           {
             "title": "Random 16",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-16.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-16.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-16.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-16.mp4"
           },
           {
             "title": "Random 17",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-17.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-17.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-17.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-17.mp4"
           },
           {
             "title": "Random 18",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-18.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-18.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-18.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-18.mp4"
           },
           {
             "title": "Random 19",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-19.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-19.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-19.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-19.mp4"
           },
           {
             "title": "Random 20",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-20.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-20.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-20.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-20.mp4"
           },
           {
             "title": "Random 21",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-21.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-21.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-21.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-21.mp4"
           },
           {
             "title": "Random 22",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-22.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-22.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-22.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-22.mp4"
           },
           {
             "title": "Random 23",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-23.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-23.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-23.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-23.mp4"
           },
           {
             "title": "Random 24",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-24.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-24.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-24.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-24.mp4"
           },
           {
             "title": "Random 25",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-25.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-25.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-25.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-25.mp4"
           },
           {
             "title": "Random 26",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-26.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-26.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-26.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-26.mp4"
           },
           {
             "title": "Random 27",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-27.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-27.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-27.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-27.mp4"
           },
           {
             "title": "Random 28",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-28.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-28.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-28.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-28.mp4"
           },
           {
             "title": "Random 29",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-29.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-29.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-29.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-29.mp4"
           },
           {
             "title": "Random 30",
-            "thumb": "https://club-of-life.com/media-cms/video/random/rnd-30.jpg",
-            "src": "https://club-of-life.com/media-cms/video/random/rnd-30.mp4"
+            "thumb": "https://app.blue.is/media-cms/video/random/rnd-30.jpg",
+            "src": "https://app.blue.is/media-cms/video/random/rnd-30.mp4"
           }
         ]
       }
