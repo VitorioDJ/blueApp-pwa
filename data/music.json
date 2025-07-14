@@ -110,6 +110,35 @@
     "artist": "<span class='font-weight-bold'>Kaya</span> Lumina",
     "albums": [
       {
+        "albumName": "<span class='font-weight-bold'>Kaya + Philos</span> Moonlight Tapes",
+        "albumSongs": [
+          {
+            "name": "Kaya - Water",
+            "src": "https://app.ooblue.is/media-cms/sound/kaya-philos/Kaya-Water-AQ01.mp3"
+          },
+          {
+            "name": "Kaya - Turtles",
+            "src": "https://app.ooblue.is/media-cms/sound/kaya-philos/Kaya-Turtles-AQ01.mp3"
+          },
+          {
+            "name": "Kaya - Temple Of The Heart",
+            "src": "https://app.ooblue.is/media-cms/sound/kaya-philos/Kaya-TempleOfTheHeart-AQ01.mp3"
+          },
+          {
+            "name": "Philos - Meditation 1",
+            "src": "https://app.ooblue.is/media-cms/sound/kaya-philos/Philos-01-AQ01.mp3"
+          },
+          {
+            "name": "Philos - Meditation 2",
+            "src": "https://app.ooblue.is/media-cms/sound/kaya-philos/Philos-02-AQ01.mp3"
+          },
+          {
+            "name": "Philos - Temple Of Light",
+            "src": "https://app.ooblue.is/media-cms/sound/kaya-philos/Philos-TempleOfLight-AQ01.mp3"
+          }
+        ]
+      },
+      {
         "albumName": "<span class='font-weight-bold'>Chakra</span> Toning",
         "albumSongs": [
           {
