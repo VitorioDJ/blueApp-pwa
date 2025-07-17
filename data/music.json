@@ -39,6 +39,21 @@
     ]
   },
   {
+    "modal": "modal-kat",
+    "artist": "<span class='font-weight-bold'>Theresa</span> Kat",
+    "albums": [
+      {
+        "albumName": "<span class='font-weight-bold'>Kat's</span> Heart Beats",
+        "albumSongs": [
+          {
+            "name": "The Bird",
+            "src": "https://app.ooblue.is/media-cms/sound/kat/Theresa-Bird.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "modal": "modal-whales",
     "artist": "<span class='font-weight-bold'>Sounds</span> Of Whales",
     "albums": [
