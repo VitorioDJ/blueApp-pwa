@@ -37,7 +37,6 @@
   <link href="../static/assets/css/theme.css" rel="stylesheet">
   <link href="../static/assets/lib/plyr/plyr.css" rel="stylesheet">
 
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css" /> -->
   <link href="../static/assets/lib/ion.rangeSlider/css/ion.rangeSlider.css" rel="stylesheet">
   <link href="../static/js_blue_app/vik-hor-scroll.css" rel="stylesheet">
 
@@ -88,6 +87,7 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false" id="dropdown1"><b>Music</b></a>
             <div class="dropdown-menu" aria-labelledby="dropdown1">
+              <a class="dropdown-item" href="#!" data-remodal-target="modal-dance">Dance Mix</a>
               <a class="dropdown-item" href="#!" data-remodal-target="modal-pepe">Pepe Danza</a>
               <a class="dropdown-item" href="#!" data-remodal-target="modal-laeela">Laeela</a>
               <a class="dropdown-item" href="#!" data-remodal-target="modal-hanna-anne">Hanna & Anne</a>
@@ -166,7 +166,7 @@
 
       <!-- Specify the initial video when APP opens -->
       {% set album_index = 0 %} {# Specify the index of the video you want to use #}
-      {% set video_index = 0 %} {# Specify the index of the video you want to use #}
+      {% set video_index = 1 %} {# Specify the index of the video you want to use #}
       {% set default_video_src = videos[0].albums[album_index].albumVideos[video_index].src %}
       {% set default_thumb_src = videos[0].albums[album_index].albumVideos[video_index].thumb %}
 
@@ -399,7 +399,6 @@
   <script src="../static/assets/lib/isotope-packery/packery-mode.pkgd.min.js"></script>
   <script src="../static/assets/lib/hover-dir/jquery.hoverdir.js"></script>
 
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script> -->
   <script src="../static/assets/lib/ion.rangeSlider/js/ion.rangeSlider.min.js"></script>
   <script src="../static/js_blue_app/blue.js"></script>
 </body>

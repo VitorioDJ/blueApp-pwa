@@ -39,6 +39,21 @@
     ]
   },
   {
+    "modal": "modal-dance",
+    "artist": "<span class='font-weight-bold'>Theresa</span> Dance Mix",
+    "albums": [
+      {
+        "albumName": "<span class='font-weight-bold'>DJ Aku</span> Dance Mixes",
+        "albumSongs": [
+          {
+            "name": "2026 New Year Mix",
+            "src": "https://app.ooblue.is/media-cms/sound/dance/2026-new-year-mix.mp3"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "modal": "modal-kat",
     "artist": "<span class='font-weight-bold'>Theresa</span> Kat",
     "albums": [
